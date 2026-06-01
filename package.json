@@ -1,0 +1,32 @@
+{
+  "name": "resume-generator",
+  "version": "0.1.0",
+  "description": "ATS-ready CV and resume builder with personalized suggestions.",
+  "private": true,
+  "main": "src/index.jsx",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "npm run build"
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "ats",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.14"
+  }
+}
